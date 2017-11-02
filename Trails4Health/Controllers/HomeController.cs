@@ -31,5 +31,24 @@ namespace Trails4Health.Controllers
         {
             return View();
         }
+        public IActionResult InsertTrail() {
+            return View();
+        }
+        public IActionResult Signin() {
+            return View();
+        }
+        public IActionResult Signup()
+        {
+            return View();
+        }
+        public IActionResult Historical() {
+            return View();
+        }
+        public IActionResult Question() {
+            return View();
+        }
+        public IActionResult Achievements() {
+            return View();  
+        }
     }
 }

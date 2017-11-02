@@ -9770,7 +9770,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\1700927\\.nuget\\packages\\": {}
+    "C:\\Users\\TULPAR\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
@@ -9778,14 +9778,14 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Users\\1700927\\Documents\\Trails4Health\\Trails4Health\\Trails4Health.csproj",
+      "projectUniqueName": "C:\\Users\\TULPAR\\Documents\\GitHub\\Trails4Health\\Trails4Health\\Trails4Health.csproj",
       "projectName": "Trails4Health",
-      "projectPath": "C:\\Users\\1700927\\Documents\\Trails4Health\\Trails4Health\\Trails4Health.csproj",
-      "packagesPath": "C:\\Users\\1700927\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\1700927\\Documents\\Trails4Health\\Trails4Health\\obj\\",
+      "projectPath": "C:\\Users\\TULPAR\\Documents\\GitHub\\Trails4Health\\Trails4Health\\Trails4Health.csproj",
+      "packagesPath": "C:\\Users\\TULPAR\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\TULPAR\\Documents\\GitHub\\Trails4Health\\Trails4Health\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\1700927\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\TULPAR\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
