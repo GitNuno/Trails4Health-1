@@ -8,3 +8,14 @@ C:\Users\TULPAR\Documents\GitHub\Trails4Health\Trails4Health\obj\Debug\netcoreap
 C:\Users\TULPAR\Documents\GitHub\Trails4Health\Trails4Health\obj\Debug\netcoreapp1.1\Trails4Health.AssemblyInfo.cs
 C:\Users\TULPAR\Documents\GitHub\Trails4Health\Trails4Health\obj\Debug\netcoreapp1.1\Trails4Health.dll
 C:\Users\TULPAR\Documents\GitHub\Trails4Health\Trails4Health\obj\Debug\netcoreapp1.1\Trails4Health.pdb
+C:\Users\MCRUZSEGUROS03\Documents\Trails4Health\Trails4Health\bin\Debug\netcoreapp1.1\Trails4Health.deps.json
+C:\Users\MCRUZSEGUROS03\Documents\Trails4Health\Trails4Health\bin\Debug\netcoreapp1.1\Trails4Health.runtimeconfig.json
+C:\Users\MCRUZSEGUROS03\Documents\Trails4Health\Trails4Health\bin\Debug\netcoreapp1.1\Trails4Health.runtimeconfig.dev.json
+C:\Users\MCRUZSEGUROS03\Documents\Trails4Health\Trails4Health\bin\Debug\netcoreapp1.1\Trails4Health.dll
+C:\Users\MCRUZSEGUROS03\Documents\Trails4Health\Trails4Health\bin\Debug\netcoreapp1.1\Trails4Health.pdb
+C:\Users\MCRUZSEGUROS03\Documents\Trails4Health\Trails4Health\obj\Debug\netcoreapp1.1\Trails4Health.csprojResolveAssemblyReference.cache
+C:\Users\MCRUZSEGUROS03\Documents\Trails4Health\Trails4Health\obj\Debug\netcoreapp1.1\Trails4Health.csproj.CoreCompileInputs.cache
+C:\Users\MCRUZSEGUROS03\Documents\Trails4Health\Trails4Health\obj\Debug\netcoreapp1.1\Trails4Health.AssemblyInfoInputs.cache
+C:\Users\MCRUZSEGUROS03\Documents\Trails4Health\Trails4Health\obj\Debug\netcoreapp1.1\Trails4Health.AssemblyInfo.cs
+C:\Users\MCRUZSEGUROS03\Documents\Trails4Health\Trails4Health\obj\Debug\netcoreapp1.1\Trails4Health.dll
+C:\Users\MCRUZSEGUROS03\Documents\Trails4Health\Trails4Health\obj\Debug\netcoreapp1.1\Trails4Health.pdb
