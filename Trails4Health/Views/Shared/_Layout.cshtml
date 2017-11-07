@@ -33,7 +33,18 @@
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
                     <li><a asp-area="" asp-controller="Home" asp-action="Index">Home</a></li>
-                    <li><a asp-area="" asp-controller="Home" asp-action="InsertTrail">Insert Trail</a></li>
+                    <li>
+                        <a asp-area="" asp-controller="Home" asp-action="InsertTrail" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Insert Trail</a>
+                        <div class="dropdown-menu" x-placement="bottom-start" style="position: absolute; transform: translate3d(0px, 40px, 0px); top: 0px; left: 0px; will-change: transform;">
+                            <a class="dropdown-item" href="#">Create Trail</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Update Trail</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Read Trail</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Delete Trail</a>
+                        </div>
+                    </li>
                     <li><a asp-area="" asp-controller="Home" asp-action="About">About</a></li>
                     <li><a asp-area="" asp-controller="Home" asp-action="Contact">Contact</a></li>
                 </ul>
