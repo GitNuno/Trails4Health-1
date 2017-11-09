@@ -8,7 +8,7 @@
 
     <environment names="Development">
         <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
-        <link rel="stylesheet" href="~/css/site.css" />
+        <link rel="stylesheet" href="~/css/bootstrap.css" />
     </environment>
     <environment names="Staging,Production">
         <link rel="stylesheet" href="https://ajax.aspnetcdn.com/ajax/bootstrap/3.3.7/css/bootstrap.min.css"
@@ -19,42 +19,45 @@
     @Html.Raw(JavaScriptSnippet.FullScript)
 </head>
 <body>
-    <nav class="navbar navbar-inverse navbar-fixed-top">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a asp-area="" asp-controller="Home" asp-action="Index" class="navbar-brand">Trails4Health</a>
-            </div>
-            <div class="navbar-collapse collapse">
-                <ul class="nav navbar-nav">
-                    <li><a asp-area="" asp-controller="Home" asp-action="Index">Home</a></li>
-                    <li>
-                        <a asp-area="" asp-controller="Home" asp-action="InsertTrail" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Insert Trail</a>
-                        <div class="dropdown-menu" x-placement="bottom-start" style="position: absolute; transform: translate3d(0px, 40px, 0px); top: 0px; left: 0px; will-change: transform;">
-                            <a class="dropdown-item" href="#">Create Trail</a>
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#">Update Trail</a>
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#">Read Trail</a>
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#">Delete Trail</a>
-                        </div>
-                    </li>
-                    <li><a asp-area="" asp-controller="Home" asp-action="About">About</a></li>
-                    <li><a asp-area="" asp-controller="Home" asp-action="Contact">Contact</a></li>
-                </ul>
-                <ul class="nav navbar-nav" style="float:right;">
-                    <li><a href="#"><img src="~/images/flag-english.png"  style="max-height:20px;max-width:20px;"/></a></li>
-                    <li><a href="#"><img src="~/images/flag-3d-round-250.png" style="max-height:20px;max-width:20px;"/></a></li>
-                    <li><a asp-area="" asp-controller="Home" asp-action="Signin">Sign-in</a></li>
-                    <li><a asp-area="" asp-controller="Home" asp-action="Signup">Sign-up</a></li>
-                </ul>
-            </div>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <a asp-area="" asp-controller="Home" asp-action="Index" class="navbar-brand">Trails4Health</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarColor01">
+            <ul class="nav nav-pills">
+                <li class="nav-item">
+                    <a asp-area="" asp-controller="Home" asp-action="Index" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Insert Trails</a>
+                    <div class="dropdown-menu" x-placement="bottom-start" style="position: absolute; transform: translate3d(0px, 40px, 0px); top: 0px; left: 0px; will-change: transform;">
+                        <a class="dropdown-item" href="#">Create Trail</a>
+                        <a class="dropdown-item" href="#">Read Trail</a>
+                        <a class="dropdown-item" href="#">Update Trail</a>
+                        <a class="dropdown-item" href="#">Delete Trail</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a asp-area="" asp-action="About" asp-controller="Home" class="nav-link" >About</a>
+                </li>
+                <li class="nav-item">
+                    <a asp-area="" asp-action="Contact" asp-controller="Home"class="nav-link">Contact</a>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <ul class="nav navbar-nav" style="float:right;">
+                <li><a href="#"><img src="~/images/flag-english.png" style="max-height:20px;max-width:20px;" /></a></li>
+                <li><a href="#"><img src="~/images/flag-3d-round-250.png" style="max-height:20px;max-width:20px;" /></a></li>
+                <li><a asp-area="" asp-controller="Home" asp-action="Signin">Sign-in</a></li>
+                <li><a asp-area="" asp-controller="Home" asp-action="Signup">Sign-up</a></li>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="text" placeholder="Search">
+                    <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+                </form>
+            </ul>
+
         </div>
     </nav>
     <div class="container body-content">
