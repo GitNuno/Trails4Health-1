@@ -7,6 +7,6 @@ namespace Trails4Health.Models
 {
     public class UserRespository
     {
-        IEnumerable<Signin> Login { get; }
+        IEnumerable<SignIn> Login { get; }
     }
 }
