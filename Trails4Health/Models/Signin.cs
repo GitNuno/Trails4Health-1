@@ -8,7 +8,7 @@ namespace Trails4Health.Models
 {
     public class SignIn
     {
-        [Required(ErrorMessage = "Please enter your name")]
+        [Required(ErrorMessage = "Please enter your username")]
         public string UserName { get; set; }
         [Required(ErrorMessage = "Please enter your password")]
         public string UserPass { get; set; }

@@ -7,4 +7,16 @@
 }
 <h1>Historical</h1>
 
-<a href="https://www.google.pt/maps/place/Guarda/data=!4m2!3m1!1s0xd3cfac48ff6c653:0x400ebbde4903500?sa=X&ved=0ahUKEwih26Ho7KDXAhVBzxQKHUX3CRQQ8gEILDAA">Guarda Map</a>
+<div id="map" style="width:400px;height:400px;"></div>
+
+<script>
+    function myMap() {
+        var mapCanvas = document.getElementById("map");
+        var mapOptions = {
+            center: new google.maps.LatLng(40.538686, -7.2677887), zoom: 17
+        };
+        var map = new google.maps.Map(mapCanvas, mapOptions);
+    }
+</script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA1mPaYmlqhJ28dVsQT-_8bbNTjhY4h0NI&callback=myMap"></script>

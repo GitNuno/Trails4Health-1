@@ -1,8 +1,7 @@
 {
   "runtimeOptions": {
     "additionalProbingPaths": [
-      "C:\\Users\\DoubleFace\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\DoubleFace\\.nuget\\packages"
+      "C:\\Users\\TULPAR\\.nuget\\packages"
     ]
   }
 }
