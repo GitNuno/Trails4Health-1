@@ -1,0 +1,28 @@
+Tutoria Class 17 - november - 2017
+Learning API's
+
+I did a search during the week and found Itinero (The routing project)
+http://docs.itinero.tech/docs/index.html
+
+Itinero uses the OSM Maps (OpenStreetMap Free Maps - MIT License)
+
+OsmSharp is a C# library to work with OpenStreetMap (OSM) data
+http://www.osmsharp.com/
+https://github.com/OsmSharp/core
+
+Routing OSM
+http://wiki.openstreetmap.org/wiki/Routing
+
+http://planet.openstreetmap.org/
+
+Just for curiosity
+Sapo.Maps also based in OSM
+http://api.mapas.sapo.pt/ClassReference.php
+
+
+https://www.openstreetmap.org/#map=9/40.3947/-7.3828
+
+http://osmand.net/ OFFILINE
+
+Aprenda o OpenStreetMap Passo a Passo / Learning OSM Step to Step
+http://learnosm.org/pt/mobile-mapping/using-gps/
