@@ -1,0 +1,18 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@model Question
+@{
+    ViewData["Title"] = "Index";
+}
+<h1>Question</h1>
+<form>
+    <fieldset>
+        <legend>Survey</legend>
+        <div class="form-group">
+            <label for="@Model.QuestionID">@Model.Query</label>
+            <input type="text" class="form-control" id="@Model.QuestionID">
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </fieldset>
+</form>
