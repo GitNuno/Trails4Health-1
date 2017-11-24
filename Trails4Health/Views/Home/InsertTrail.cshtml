@@ -1,23 +1,23 @@
 ﻿@{
     ViewData["Title"] = "Index";
 }
-
+<link href="~/css/StyleSheet.css" rel="stylesheet" />
 <h1>Insert Trails</h1>
 
-<div>
-    <b>Start: </b>
-    <select id="start">
-        <option value="castelo da guarda">Castelo da Guarda</option>
-        <option value="cathedral of guarda">Cathedral of Guarda</option>
-    </select>
-    <b>End: </b>
-    <select id="end">
-        <option value="castelo da guarda">Castelo da Guarda</option>
-        <option value="cathedral of guarda">Cathedral of Guarda</option>
-    </select>
-</div>
-<div id="map" style="height:400px;width:400px;"></div>
-<script>
+    <div id="floating-panel">
+        <b>Start: </b>
+        <select id="start">
+            <option value="castelo da guarda">Castelo da Guarda</option>
+            <option value="cathedral of guarda">Cathedral of Guarda</option>
+        </select>
+        <b>End: </b>
+        <select id="end">
+            <option value="castelo da guarda">Castelo da Guarda</option>
+            <option value="cathedral of guarda">Cathedral of Guarda</option>
+        </select>
+    </div>
+    <div id="map"></div>
+    <script>
         function initMap() {
             var directionsService = new google.maps.DirectionsService;
             var directionsDisplay = new google.maps.DirectionsRenderer;
@@ -47,8 +47,7 @@
                 }
             });
         }
-</script>
-<script async defer
-        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA1mPaYmlqhJ28dVsQT-_8bbNTjhY4h0NI&callback=initMap">
-</script>
-
+    </script>
+    <script async defer
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA1mPaYmlqhJ28dVsQT-_8bbNTjhY4h0NI&callback=initMap">
+    </script>
